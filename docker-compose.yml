@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  # Streamlit Dashboard
+  dashboard:
+    build: .
+    container_name: sports-analytics-dashboard
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./notebooks:/app/notebooks
+    command: streamlit run dashboard/app.py --server.port=8501 --server.address=0.0.0.0
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  # Jupyter Notebook Server
+  jupyter:
+    build: .
+    container_name: sports-analytics-jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    command: jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token=''
+    environment:
+      - PYTHONUNBUFFERED=1
+    depends_on:
+      - dashboard
+
+  # Run Tests
+  test:
+    build: .
+    container_name: sports-analytics-test
+    volumes:
+      - .:/app
+    command: pytest tests/ -v --cov=src --cov-report=term-missing
+    profiles:
+      - test
