@@ -1,0 +1,501 @@
+injury_id,sport,injury_type,days_missed,player_age,position_type,season_phase,recurring,surgery_required,recovery_success
+1,NBA,Ankle Sprain,3,26,Defense,Playoffs,False,False,True
+2,NFL,Ankle Sprain,28,19,Specialist,Regular Season,False,False,True
+3,Soccer,Back,18,35,Offense,Regular Season,False,False,True
+4,NHL,Groin,11,29,Defense,Playoffs,False,False,True
+5,NFL,Groin,21,21,Specialist,Regular Season,False,True,True
+6,MLB,Quad,32,25,Specialist,Playoffs,False,False,True
+7,NHL,Ankle Sprain,13,26,Offense,Regular Season,False,False,True
+8,NHL,Hip,42,26,Defense,Regular Season,False,False,True
+9,NFL,Groin,56,27,Defense,Preseason,False,False,True
+10,NBA,Shoulder,3,29,Defense,Regular Season,False,False,True
+11,NHL,Hip,41,35,Defense,Regular Season,False,False,True
+12,NFL,Quad,39,30,Specialist,Preseason,True,False,True
+13,Soccer,Shoulder,3,29,Offense,Regular Season,True,False,True
+14,NFL,Hamstring,20,30,Specialist,Regular Season,False,False,False
+15,NHL,Wrist,28,23,Specialist,Regular Season,False,False,True
+16,MLB,Hip,50,29,Offense,Playoffs,False,False,True
+17,NHL,Shoulder,27,32,Offense,Regular Season,True,False,True
+18,NBA,Wrist,28,27,Offense,Playoffs,False,False,True
+19,NHL,Wrist,5,26,Specialist,Playoffs,False,False,True
+20,MLB,Ankle Sprain,27,28,Specialist,Regular Season,False,False,True
+21,NFL,Ankle Sprain,42,27,Offense,Regular Season,False,False,True
+22,MLB,Foot,34,33,Specialist,Playoffs,True,False,True
+23,MLB,Foot,63,32,Defense,Regular Season,False,False,True
+24,Soccer,Ankle Sprain,64,29,Defense,Preseason,False,False,True
+25,MLB,Back,26,25,Offense,Regular Season,False,False,True
+26,NFL,Groin,24,29,Specialist,Regular Season,False,False,True
+27,MLB,Concussion,15,26,Defense,Regular Season,False,True,True
+28,MLB,Calf,9,24,Defense,Regular Season,False,False,True
+29,NBA,Hip,3,26,Specialist,Regular Season,False,False,True
+30,NBA,Back,47,31,Defense,Regular Season,False,False,True
+31,Soccer,Hip,25,29,Offense,Regular Season,False,False,False
+32,NFL,Hip,38,26,Specialist,Regular Season,True,False,True
+33,Soccer,Back,58,28,Offense,Regular Season,False,False,True
+34,NFL,Foot,41,26,Specialist,Playoffs,False,False,True
+35,MLB,Calf,5,32,Offense,Regular Season,False,False,True
+36,NFL,Quad,5,28,Defense,Regular Season,False,False,True
+37,NBA,Calf,30,20,Offense,Regular Season,True,False,True
+38,NFL,Hip,18,33,Offense,Regular Season,False,False,True
+39,MLB,Knee ACL,263,24,Specialist,Playoffs,False,True,True
+40,Soccer,Concussion,18,20,Offense,Regular Season,False,True,False
+41,MLB,Shoulder,39,31,Specialist,Regular Season,False,False,True
+42,NHL,Knee ACL,274,26,Specialist,Preseason,False,True,True
+43,Soccer,Quad,35,26,Offense,Regular Season,True,True,True
+44,NFL,Knee ACL,120,27,Defense,Preseason,True,False,False
+45,Soccer,Shoulder,22,27,Specialist,Regular Season,False,False,True
+46,NBA,Hamstring,11,22,Offense,Preseason,False,True,True
+47,NFL,Calf,25,28,Defense,Regular Season,True,False,True
+48,NHL,Knee ACL,273,22,Defense,Preseason,False,False,True
+49,NBA,Foot,8,25,Specialist,Playoffs,False,False,True
+50,NBA,Concussion,9,21,Specialist,Regular Season,False,False,True
+51,MLB,Shoulder,38,31,Specialist,Preseason,False,False,True
+52,NHL,Groin,39,26,Offense,Regular Season,True,False,True
+53,Soccer,Ankle Sprain,23,21,Defense,Playoffs,False,False,True
+54,NHL,Back,13,18,Defense,Regular Season,False,False,True
+55,MLB,Wrist,23,20,Defense,Regular Season,False,True,True
+56,NBA,Foot,34,21,Defense,Regular Season,False,False,True
+57,Soccer,Knee ACL,276,29,Offense,Regular Season,False,False,True
+58,MLB,Knee ACL,241,27,Specialist,Regular Season,False,False,True
+59,NBA,Quad,34,24,Offense,Playoffs,False,False,True
+60,NHL,Wrist,27,27,Offense,Regular Season,False,False,True
+61,MLB,Ankle Sprain,37,30,Defense,Playoffs,False,False,True
+62,NFL,Hamstring,36,24,Offense,Preseason,False,False,True
+63,NFL,Hamstring,25,20,Specialist,Preseason,False,False,False
+64,NFL,Wrist,13,30,Specialist,Regular Season,False,False,True
+65,Soccer,Quad,33,33,Offense,Regular Season,False,False,True
+66,NFL,Hip,39,30,Defense,Regular Season,False,False,True
+67,MLB,Calf,8,30,Offense,Regular Season,False,False,True
+68,Soccer,Groin,5,27,Defense,Preseason,False,False,False
+69,NFL,Wrist,20,29,Defense,Playoffs,False,False,False
+70,NHL,Knee ACL,246,30,Defense,Preseason,False,False,True
+71,Soccer,Back,45,30,Defense,Regular Season,False,False,True
+72,NFL,Groin,5,30,Defense,Regular Season,False,False,True
+73,NFL,Quad,22,27,Offense,Regular Season,False,False,True
+74,Soccer,Knee ACL,244,28,Defense,Preseason,True,False,True
+75,NFL,Calf,47,28,Specialist,Regular Season,True,False,False
+76,NBA,Knee ACL,277,31,Specialist,Regular Season,False,False,True
+77,MLB,Back,21,23,Defense,Regular Season,True,True,True
+78,Soccer,Quad,12,30,Specialist,Regular Season,False,False,True
+79,Soccer,Shoulder,11,28,Defense,Regular Season,False,False,True
+80,MLB,Foot,53,21,Specialist,Regular Season,False,False,True
+81,MLB,Wrist,3,25,Offense,Preseason,False,True,True
+82,NFL,Concussion,17,28,Specialist,Regular Season,True,False,True
+83,NFL,Ankle Sprain,56,22,Defense,Playoffs,False,False,True
+84,NFL,Groin,19,22,Defense,Regular Season,True,True,False
+85,NHL,Hip,39,28,Defense,Regular Season,False,False,True
+86,NFL,Hip,75,24,Offense,Regular Season,False,False,True
+87,NFL,Hip,42,23,Defense,Regular Season,False,False,True
+88,NBA,Concussion,21,24,Specialist,Regular Season,False,True,True
+89,NBA,Calf,29,28,Defense,Playoffs,True,False,False
+90,NBA,Quad,13,29,Offense,Regular Season,False,False,True
+91,NFL,Knee ACL,274,33,Offense,Regular Season,False,False,True
+92,NFL,Concussion,17,30,Specialist,Regular Season,False,False,True
+93,NBA,Hamstring,5,25,Defense,Regular Season,False,False,True
+94,Soccer,Quad,62,36,Defense,Regular Season,False,False,True
+95,NFL,Hip,51,25,Defense,Regular Season,False,False,True
+96,NBA,Hip,3,34,Defense,Preseason,True,False,True
+97,NBA,Hamstring,7,32,Specialist,Regular Season,False,False,True
+98,NHL,Hamstring,28,29,Specialist,Regular Season,True,True,True
+99,NHL,Hip,45,25,Specialist,Regular Season,False,False,False
+100,NHL,Back,35,25,Specialist,Preseason,False,False,True
+101,MLB,Back,63,29,Specialist,Regular Season,False,True,False
+102,NHL,Hip,67,27,Specialist,Regular Season,False,False,False
+103,NFL,Foot,31,22,Specialist,Regular Season,True,False,True
+104,NFL,Calf,18,25,Offense,Regular Season,False,True,True
+105,Soccer,Hip,25,28,Offense,Regular Season,False,False,True
+106,Soccer,Concussion,15,18,Specialist,Regular Season,False,False,True
+107,Soccer,Back,3,20,Specialist,Preseason,False,False,True
+108,NFL,Concussion,8,32,Specialist,Regular Season,False,False,True
+109,NBA,Calf,34,20,Specialist,Regular Season,False,False,False
+110,Soccer,Concussion,10,21,Defense,Regular Season,False,False,True
+111,Soccer,Foot,3,26,Defense,Regular Season,False,False,False
+112,MLB,Hamstring,10,32,Offense,Playoffs,True,False,True
+113,NBA,Concussion,21,23,Specialist,Playoffs,False,False,False
+114,NBA,Hamstring,31,28,Offense,Preseason,False,True,True
+115,MLB,Groin,5,30,Offense,Playoffs,True,False,False
+116,NFL,Concussion,16,35,Defense,Preseason,False,False,True
+117,NFL,Concussion,5,23,Specialist,Regular Season,False,False,True
+118,NBA,Hip,44,24,Defense,Regular Season,False,False,True
+119,MLB,Back,3,23,Defense,Regular Season,True,False,True
+120,NFL,Concussion,25,27,Defense,Regular Season,False,False,True
+121,NHL,Wrist,28,25,Offense,Regular Season,False,True,True
+122,NBA,Ankle Sprain,36,23,Defense,Regular Season,False,False,True
+123,NFL,Shoulder,54,32,Specialist,Regular Season,False,False,True
+124,NFL,Calf,5,31,Defense,Regular Season,False,False,False
+125,NFL,Calf,5,23,Offense,Preseason,False,True,True
+126,MLB,Concussion,15,25,Offense,Regular Season,False,False,True
+127,NBA,Wrist,13,28,Offense,Playoffs,False,False,True
+128,NHL,Quad,19,21,Offense,Preseason,False,False,True
+129,Soccer,Hip,50,23,Specialist,Regular Season,False,False,True
+130,NFL,Knee ACL,261,30,Specialist,Preseason,False,False,True
+131,NHL,Shoulder,14,31,Specialist,Regular Season,False,False,True
+132,Soccer,Shoulder,3,33,Specialist,Regular Season,False,False,True
+133,MLB,Groin,23,22,Defense,Regular Season,False,False,True
+134,NBA,Back,28,23,Specialist,Regular Season,False,True,True
+135,NBA,Back,3,24,Specialist,Regular Season,False,False,True
+136,NBA,Wrist,25,30,Offense,Regular Season,False,True,True
+137,Soccer,Groin,12,23,Offense,Regular Season,False,False,True
+138,NFL,Hamstring,24,30,Specialist,Regular Season,False,False,True
+139,MLB,Wrist,23,24,Defense,Regular Season,True,True,True
+140,NHL,Ankle Sprain,53,25,Defense,Regular Season,False,False,True
+141,MLB,Concussion,3,25,Offense,Playoffs,True,False,True
+142,NFL,Ankle Sprain,37,22,Defense,Regular Season,False,False,False
+143,NFL,Groin,27,29,Defense,Regular Season,False,False,True
+144,NBA,Hip,15,28,Offense,Regular Season,False,True,True
+145,Soccer,Back,54,29,Defense,Preseason,False,False,True
+146,NBA,Shoulder,6,29,Specialist,Playoffs,True,False,True
+147,NFL,Back,3,18,Specialist,Regular Season,False,False,True
+148,NBA,Concussion,21,27,Defense,Regular Season,False,False,True
+149,NFL,Quad,18,30,Specialist,Regular Season,False,False,True
+150,NFL,Hip,36,18,Defense,Regular Season,False,False,True
+151,NFL,Quad,5,26,Specialist,Playoffs,False,False,True
+152,NFL,Back,43,30,Specialist,Preseason,False,False,True
+153,NFL,Hamstring,34,27,Specialist,Regular Season,False,True,True
+154,NFL,Wrist,14,26,Defense,Playoffs,False,True,True
+155,NFL,Shoulder,46,29,Offense,Preseason,False,False,True
+156,NFL,Back,3,30,Offense,Regular Season,True,False,True
+157,NFL,Concussion,15,35,Defense,Preseason,False,False,True
+158,MLB,Hip,32,27,Specialist,Regular Season,False,False,True
+159,NFL,Groin,5,28,Specialist,Regular Season,True,False,True
+160,Soccer,Back,12,26,Offense,Playoffs,False,False,True
+161,Soccer,Quad,5,31,Specialist,Regular Season,False,False,True
+162,NFL,Shoulder,34,24,Offense,Preseason,False,False,True
+163,NHL,Ankle Sprain,29,21,Offense,Regular Season,False,False,True
+164,MLB,Quad,16,31,Defense,Preseason,False,False,True
+165,NBA,Groin,11,32,Offense,Regular Season,False,False,False
+166,NBA,Hip,31,23,Specialist,Regular Season,False,False,True
+167,NBA,Ankle Sprain,26,25,Defense,Regular Season,False,False,True
+168,NFL,Quad,8,29,Defense,Playoffs,False,False,False
+169,MLB,Knee ACL,215,30,Specialist,Preseason,False,False,True
+170,NFL,Ankle Sprain,21,25,Offense,Regular Season,False,False,True
+171,Soccer,Knee ACL,251,22,Offense,Playoffs,False,True,False
+172,Soccer,Knee ACL,290,36,Defense,Regular Season,False,False,False
+173,NFL,Quad,39,28,Offense,Playoffs,False,False,True
+174,NFL,Wrist,6,26,Specialist,Preseason,False,True,False
+175,NBA,Groin,23,25,Specialist,Regular Season,True,True,True
+176,NFL,Calf,37,28,Defense,Playoffs,False,True,True
+177,NBA,Calf,47,31,Offense,Regular Season,False,False,True
+178,NBA,Back,13,24,Offense,Regular Season,False,False,True
+179,NHL,Wrist,46,26,Offense,Regular Season,False,False,True
+180,NFL,Wrist,3,25,Defense,Regular Season,False,False,True
+181,NBA,Wrist,3,31,Offense,Regular Season,False,False,True
+182,NBA,Foot,47,23,Offense,Preseason,True,False,True
+183,NBA,Hamstring,5,26,Defense,Playoffs,False,False,True
+184,NFL,Shoulder,62,24,Specialist,Regular Season,True,False,True
+185,NFL,Hamstring,25,32,Defense,Preseason,False,False,True
+186,NBA,Concussion,11,29,Offense,Playoffs,False,False,True
+187,MLB,Groin,30,26,Specialist,Preseason,False,True,True
+188,NBA,Wrist,44,19,Offense,Preseason,False,True,True
+189,NBA,Quad,21,31,Specialist,Preseason,False,False,True
+190,NHL,Back,48,27,Specialist,Playoffs,True,False,True
+191,NFL,Back,37,27,Offense,Preseason,False,False,True
+192,NFL,Foot,38,28,Offense,Playoffs,False,False,True
+193,MLB,Shoulder,11,25,Defense,Regular Season,False,False,False
+194,NBA,Wrist,57,26,Specialist,Preseason,False,False,True
+195,NBA,Ankle Sprain,17,29,Offense,Playoffs,False,False,True
+196,MLB,Shoulder,49,27,Offense,Preseason,False,True,True
+197,Soccer,Quad,5,29,Defense,Regular Season,False,True,True
+198,NFL,Quad,28,26,Offense,Regular Season,False,False,True
+199,Soccer,Foot,13,24,Defense,Regular Season,False,False,True
+200,NBA,Concussion,7,25,Specialist,Regular Season,False,True,True
+201,MLB,Foot,49,32,Specialist,Preseason,False,True,True
+202,NBA,Ankle Sprain,50,25,Defense,Playoffs,False,False,False
+203,NHL,Back,35,20,Offense,Regular Season,True,True,True
+204,NFL,Quad,50,32,Defense,Regular Season,False,False,True
+205,NBA,Knee ACL,244,22,Specialist,Regular Season,False,False,True
+206,NBA,Hamstring,26,25,Defense,Regular Season,True,False,True
+207,MLB,Foot,23,29,Offense,Regular Season,False,False,True
+208,Soccer,Shoulder,41,29,Specialist,Regular Season,False,False,True
+209,Soccer,Concussion,16,33,Specialist,Regular Season,False,False,True
+210,NFL,Concussion,11,33,Offense,Regular Season,False,False,True
+211,NFL,Wrist,51,30,Offense,Regular Season,False,False,False
+212,NFL,Foot,9,27,Offense,Playoffs,False,True,True
+213,Soccer,Hip,15,28,Offense,Preseason,True,False,True
+214,Soccer,Calf,22,24,Offense,Regular Season,False,False,True
+215,Soccer,Foot,34,27,Offense,Regular Season,False,False,True
+216,MLB,Knee ACL,223,28,Offense,Playoffs,True,True,True
+217,NBA,Back,21,25,Specialist,Playoffs,True,True,False
+218,MLB,Shoulder,11,31,Offense,Regular Season,False,False,True
+219,NFL,Knee ACL,338,20,Offense,Regular Season,True,False,False
+220,NFL,Back,83,25,Offense,Regular Season,False,False,True
+221,Soccer,Groin,16,24,Defense,Regular Season,True,False,True
+222,NFL,Quad,27,21,Offense,Regular Season,False,False,True
+223,NBA,Calf,10,25,Specialist,Preseason,False,False,True
+224,NFL,Foot,39,23,Specialist,Preseason,False,True,True
+225,NBA,Back,13,26,Defense,Regular Season,False,False,True
+226,NFL,Wrist,20,32,Specialist,Regular Season,False,False,True
+227,NBA,Quad,29,24,Specialist,Regular Season,True,False,True
+228,NHL,Ankle Sprain,33,29,Specialist,Regular Season,False,False,True
+229,Soccer,Concussion,3,26,Specialist,Preseason,True,False,True
+230,Soccer,Groin,53,24,Defense,Regular Season,False,False,True
+231,NFL,Hamstring,8,26,Defense,Playoffs,False,False,True
+232,MLB,Hamstring,5,31,Defense,Regular Season,False,False,True
+233,MLB,Hamstring,38,23,Defense,Regular Season,False,True,True
+234,Soccer,Quad,11,22,Defense,Regular Season,True,False,True
+235,Soccer,Hamstring,19,27,Offense,Preseason,False,False,True
+236,NFL,Groin,29,23,Defense,Regular Season,False,False,True
+237,NFL,Wrist,3,36,Specialist,Playoffs,False,True,True
+238,MLB,Back,37,27,Defense,Playoffs,True,False,True
+239,NBA,Calf,34,23,Defense,Regular Season,False,True,True
+240,NFL,Hamstring,38,30,Specialist,Preseason,False,False,True
+241,NFL,Hip,3,30,Offense,Regular Season,False,False,True
+242,NFL,Quad,15,30,Offense,Playoffs,False,False,True
+243,MLB,Quad,16,27,Specialist,Regular Season,False,True,True
+244,NHL,Hamstring,23,25,Specialist,Playoffs,False,False,True
+245,Soccer,Quad,35,25,Offense,Playoffs,False,False,True
+246,NBA,Foot,34,25,Defense,Regular Season,True,False,True
+247,NFL,Hip,16,28,Defense,Regular Season,False,True,True
+248,Soccer,Shoulder,32,22,Defense,Regular Season,False,False,True
+249,NBA,Shoulder,3,24,Specialist,Regular Season,True,True,True
+250,NFL,Groin,5,24,Defense,Regular Season,False,True,True
+251,NBA,Wrist,67,30,Defense,Regular Season,True,False,True
+252,MLB,Hip,73,22,Offense,Playoffs,False,False,True
+253,Soccer,Concussion,3,27,Specialist,Preseason,False,False,True
+254,Soccer,Shoulder,35,34,Defense,Regular Season,False,False,True
+255,NFL,Ankle Sprain,8,31,Specialist,Preseason,False,False,True
+256,NBA,Back,39,28,Specialist,Regular Season,True,True,True
+257,Soccer,Back,42,29,Specialist,Regular Season,False,False,True
+258,NFL,Back,60,23,Specialist,Playoffs,False,True,True
+259,Soccer,Hamstring,5,30,Specialist,Regular Season,False,False,True
+260,MLB,Calf,18,24,Defense,Regular Season,True,True,True
+261,NBA,Hip,42,30,Offense,Regular Season,False,True,True
+262,NFL,Concussion,9,26,Defense,Regular Season,False,False,True
+263,NBA,Hip,52,26,Offense,Regular Season,False,False,True
+264,NFL,Ankle Sprain,30,24,Defense,Playoffs,False,False,True
+265,NFL,Wrist,12,21,Offense,Regular Season,False,False,False
+266,NBA,Hip,28,29,Specialist,Regular Season,False,True,True
+267,NHL,Foot,10,32,Offense,Regular Season,False,False,True
+268,NBA,Quad,22,25,Specialist,Regular Season,False,True,True
+269,NFL,Groin,41,22,Specialist,Preseason,False,False,True
+270,Soccer,Calf,5,27,Specialist,Preseason,False,False,True
+271,NFL,Ankle Sprain,18,25,Defense,Regular Season,False,True,True
+272,NFL,Foot,41,28,Specialist,Regular Season,False,False,True
+273,NFL,Hamstring,14,32,Offense,Regular Season,False,False,True
+274,Soccer,Concussion,15,31,Offense,Regular Season,False,False,True
+275,MLB,Back,55,22,Offense,Playoffs,False,True,True
+276,NBA,Wrist,91,24,Offense,Regular Season,False,False,True
+277,NBA,Shoulder,26,25,Offense,Regular Season,False,False,True
+278,NFL,Groin,12,30,Offense,Regular Season,False,False,True
+279,NHL,Quad,23,25,Specialist,Playoffs,False,False,True
+280,NFL,Calf,20,23,Specialist,Regular Season,True,False,True
+281,NHL,Calf,27,30,Offense,Playoffs,False,False,False
+282,MLB,Knee ACL,326,23,Specialist,Preseason,False,False,True
+283,Soccer,Hamstring,17,28,Specialist,Regular Season,False,False,True
+284,NBA,Back,16,24,Specialist,Regular Season,False,False,True
+285,NFL,Back,10,25,Defense,Regular Season,True,False,True
+286,NFL,Wrist,3,21,Defense,Playoffs,False,True,True
+287,NHL,Back,20,24,Offense,Regular Season,True,True,True
+288,NBA,Groin,5,22,Defense,Regular Season,False,False,True
+289,NBA,Quad,11,20,Offense,Regular Season,True,False,True
+290,NFL,Back,31,27,Offense,Regular Season,True,False,True
+291,MLB,Groin,38,22,Offense,Regular Season,False,False,True
+292,NBA,Wrist,60,29,Defense,Playoffs,False,False,True
+293,NBA,Hamstring,5,31,Offense,Regular Season,False,False,True
+294,MLB,Quad,28,36,Specialist,Regular Season,False,True,True
+295,NBA,Foot,3,28,Offense,Playoffs,False,False,True
+296,MLB,Back,27,22,Offense,Playoffs,True,False,True
+297,NFL,Back,32,31,Specialist,Regular Season,False,True,True
+298,NFL,Ankle Sprain,51,30,Defense,Regular Season,False,False,True
+299,MLB,Hamstring,40,29,Offense,Playoffs,False,False,True
+300,Soccer,Foot,32,23,Specialist,Regular Season,False,False,True
+301,NFL,Calf,5,24,Offense,Regular Season,False,True,True
+302,NHL,Hamstring,9,26,Defense,Playoffs,False,True,True
+303,NFL,Foot,3,23,Specialist,Regular Season,False,False,True
+304,NHL,Shoulder,40,21,Offense,Regular Season,False,True,True
+305,NHL,Foot,63,22,Defense,Regular Season,False,True,True
+306,NFL,Quad,23,30,Offense,Regular Season,False,False,True
+307,Soccer,Calf,30,36,Defense,Regular Season,True,False,False
+308,NFL,Concussion,22,34,Specialist,Regular Season,True,False,True
+309,MLB,Hip,64,28,Defense,Regular Season,False,False,True
+310,Soccer,Hamstring,23,23,Defense,Regular Season,False,True,True
+311,NHL,Back,50,25,Defense,Regular Season,False,False,True
+312,NFL,Back,38,31,Defense,Regular Season,True,True,True
+313,MLB,Quad,5,25,Defense,Regular Season,False,False,True
+314,NHL,Calf,32,25,Defense,Preseason,False,True,False
+315,NBA,Wrist,40,26,Offense,Regular Season,False,False,True
+316,NBA,Knee ACL,181,28,Defense,Regular Season,True,False,True
+317,Soccer,Quad,30,28,Offense,Regular Season,False,False,True
+318,NHL,Groin,11,22,Specialist,Preseason,False,True,True
+319,NBA,Groin,19,28,Offense,Playoffs,False,False,True
+320,NFL,Wrist,24,20,Offense,Regular Season,True,False,True
+321,NFL,Hamstring,5,23,Specialist,Regular Season,False,False,True
+322,Soccer,Concussion,26,23,Specialist,Preseason,False,True,True
+323,NFL,Calf,41,27,Defense,Regular Season,False,False,True
+324,NBA,Concussion,15,18,Offense,Regular Season,False,True,False
+325,NFL,Groin,24,22,Specialist,Regular Season,False,False,True
+326,NFL,Quad,12,29,Offense,Playoffs,False,False,True
+327,Soccer,Concussion,5,27,Offense,Regular Season,False,False,True
+328,NHL,Wrist,8,26,Specialist,Preseason,False,False,False
+329,NFL,Hip,17,22,Defense,Preseason,True,False,True
+330,NFL,Knee ACL,232,25,Offense,Regular Season,False,False,True
+331,MLB,Foot,22,21,Defense,Regular Season,True,False,True
+332,MLB,Shoulder,44,23,Defense,Regular Season,False,False,True
+333,NHL,Calf,28,21,Specialist,Regular Season,True,False,True
+334,NBA,Hamstring,15,22,Defense,Regular Season,False,False,True
+335,NFL,Wrist,54,25,Specialist,Playoffs,True,False,True
+336,MLB,Calf,5,26,Defense,Playoffs,True,False,True
+337,NFL,Groin,5,26,Offense,Preseason,False,True,True
+338,NFL,Hip,21,24,Defense,Regular Season,False,False,True
+339,NBA,Calf,5,23,Defense,Playoffs,True,False,True
+340,NFL,Concussion,12,21,Specialist,Preseason,True,True,True
+341,NHL,Foot,3,29,Specialist,Playoffs,True,True,True
+342,Soccer,Foot,26,23,Defense,Regular Season,True,True,True
+343,Soccer,Hamstring,10,32,Defense,Preseason,False,False,True
+344,NHL,Calf,26,26,Offense,Regular Season,False,False,False
+345,Soccer,Knee ACL,216,28,Specialist,Regular Season,False,False,True
+346,NBA,Foot,19,26,Offense,Regular Season,False,True,True
+347,MLB,Groin,27,25,Defense,Regular Season,False,False,True
+348,NFL,Groin,12,23,Defense,Regular Season,False,False,False
+349,NBA,Concussion,29,22,Defense,Regular Season,False,False,True
+350,NFL,Foot,31,23,Offense,Preseason,False,False,True
+351,NFL,Knee ACL,171,28,Defense,Regular Season,False,False,False
+352,MLB,Hamstring,6,26,Defense,Regular Season,False,True,False
+353,Soccer,Concussion,15,18,Offense,Playoffs,True,False,True
+354,NBA,Knee ACL,333,21,Defense,Regular Season,False,False,True
+355,MLB,Back,3,23,Offense,Preseason,False,False,True
+356,MLB,Ankle Sprain,49,28,Specialist,Preseason,False,False,True
+357,NFL,Wrist,4,22,Specialist,Regular Season,False,False,True
+358,MLB,Hamstring,18,26,Defense,Preseason,False,True,True
+359,NFL,Hip,63,34,Offense,Playoffs,False,False,True
+360,NBA,Foot,12,24,Specialist,Regular Season,False,False,True
+361,Soccer,Shoulder,49,31,Offense,Regular Season,False,False,True
+362,NFL,Ankle Sprain,42,21,Offense,Playoffs,False,True,True
+363,NBA,Knee ACL,298,29,Defense,Preseason,False,False,True
+364,NBA,Calf,9,33,Defense,Regular Season,False,False,True
+365,MLB,Knee ACL,296,26,Specialist,Regular Season,False,False,True
+366,NBA,Wrist,31,24,Defense,Regular Season,True,True,True
+367,MLB,Foot,25,23,Defense,Preseason,True,False,True
+368,NHL,Concussion,18,32,Defense,Regular Season,False,False,True
+369,NBA,Hamstring,22,20,Defense,Playoffs,False,True,True
+370,NHL,Back,8,25,Specialist,Regular Season,False,True,True
+371,Soccer,Hip,39,33,Defense,Preseason,True,False,True
+372,NFL,Wrist,29,24,Defense,Playoffs,False,False,True
+373,Soccer,Shoulder,3,24,Offense,Regular Season,False,False,True
+374,NBA,Ankle Sprain,26,31,Specialist,Regular Season,False,False,True
+375,NFL,Groin,12,23,Defense,Regular Season,False,False,True
+376,Soccer,Back,53,27,Specialist,Playoffs,True,True,True
+377,NBA,Wrist,28,33,Defense,Regular Season,True,False,True
+378,NHL,Quad,14,29,Defense,Regular Season,True,False,True
+379,NBA,Quad,34,23,Defense,Regular Season,False,False,True
+380,MLB,Hamstring,5,21,Offense,Regular Season,True,True,True
+381,NFL,Back,47,24,Specialist,Regular Season,False,False,True
+382,Soccer,Foot,27,26,Specialist,Preseason,False,False,True
+383,NBA,Back,3,28,Defense,Regular Season,False,False,True
+384,NBA,Concussion,12,26,Defense,Regular Season,False,False,True
+385,MLB,Hip,5,22,Defense,Regular Season,True,False,True
+386,MLB,Concussion,12,28,Offense,Regular Season,False,False,True
+387,MLB,Shoulder,24,29,Defense,Regular Season,False,False,True
+388,NFL,Groin,13,31,Defense,Preseason,True,True,True
+389,NBA,Quad,5,28,Defense,Regular Season,True,False,True
+390,NBA,Back,20,28,Offense,Preseason,False,False,True
+391,NFL,Concussion,15,26,Specialist,Regular Season,False,False,True
+392,NFL,Hip,3,26,Defense,Playoffs,False,True,True
+393,NBA,Knee ACL,288,31,Defense,Regular Season,False,True,True
+394,Soccer,Ankle Sprain,54,23,Specialist,Playoffs,False,False,False
+395,Soccer,Foot,25,23,Specialist,Regular Season,False,False,True
+396,NFL,Concussion,17,31,Offense,Regular Season,False,False,True
+397,NBA,Calf,8,26,Specialist,Playoffs,False,False,True
+398,NFL,Knee ACL,316,27,Specialist,Regular Season,False,False,True
+399,NFL,Wrist,19,23,Specialist,Preseason,False,False,True
+400,NFL,Groin,21,23,Specialist,Regular Season,True,False,True
+401,NFL,Groin,7,18,Specialist,Playoffs,False,False,True
+402,NFL,Back,34,27,Offense,Preseason,False,True,True
+403,NFL,Ankle Sprain,19,22,Offense,Playoffs,False,False,True
+404,NBA,Shoulder,13,26,Defense,Regular Season,False,False,True
+405,Soccer,Hamstring,35,27,Offense,Regular Season,False,False,True
+406,NFL,Ankle Sprain,3,26,Specialist,Regular Season,True,False,True
+407,NFL,Hip,27,20,Specialist,Regular Season,False,False,True
+408,Soccer,Groin,45,26,Specialist,Preseason,False,True,False
+409,MLB,Calf,19,29,Offense,Preseason,False,False,True
+410,NBA,Foot,39,23,Offense,Regular Season,True,False,True
+411,MLB,Back,19,22,Specialist,Preseason,False,False,True
+412,NFL,Ankle Sprain,21,20,Specialist,Preseason,True,False,True
+413,MLB,Hip,3,24,Defense,Regular Season,True,False,False
+414,NFL,Back,48,27,Offense,Regular Season,True,False,True
+415,NBA,Knee ACL,179,33,Specialist,Regular Season,True,False,True
+416,MLB,Calf,42,24,Specialist,Preseason,False,False,True
+417,NBA,Groin,34,30,Defense,Regular Season,False,False,True
+418,NBA,Quad,25,28,Defense,Regular Season,False,False,True
+419,MLB,Hip,26,25,Offense,Playoffs,False,False,True
+420,MLB,Hip,5,21,Defense,Preseason,True,True,True
+421,NFL,Back,7,26,Offense,Playoffs,True,False,True
+422,Soccer,Wrist,21,18,Defense,Playoffs,False,False,True
+423,NFL,Groin,21,34,Specialist,Preseason,False,False,False
+424,NBA,Shoulder,50,29,Offense,Regular Season,False,False,True
+425,NHL,Back,26,29,Defense,Preseason,True,False,True
+426,MLB,Wrist,15,26,Defense,Regular Season,False,False,True
+427,NBA,Quad,49,30,Specialist,Regular Season,False,False,True
+428,NFL,Wrist,17,22,Defense,Playoffs,True,True,True
+429,NBA,Wrist,27,24,Defense,Regular Season,True,False,True
+430,Soccer,Back,13,32,Defense,Preseason,False,False,True
+431,NBA,Foot,11,22,Defense,Regular Season,True,True,True
+432,MLB,Back,30,27,Defense,Regular Season,False,False,False
+433,NFL,Back,3,30,Specialist,Preseason,True,False,True
+434,NBA,Foot,33,27,Offense,Regular Season,False,True,True
+435,NBA,Hip,40,23,Specialist,Regular Season,False,False,True
+436,NFL,Quad,41,26,Defense,Regular Season,False,False,True
+437,NHL,Groin,26,26,Defense,Playoffs,True,False,True
+438,NBA,Knee ACL,327,27,Defense,Regular Season,True,False,True
+439,NBA,Wrist,3,26,Offense,Regular Season,False,True,True
+440,MLB,Groin,20,26,Defense,Regular Season,True,True,True
+441,NHL,Shoulder,3,31,Offense,Playoffs,False,False,True
+442,NBA,Ankle Sprain,3,29,Specialist,Playoffs,False,True,True
+443,MLB,Wrist,16,20,Specialist,Playoffs,False,False,True
+444,MLB,Groin,39,23,Offense,Regular Season,True,False,True
+445,NBA,Groin,32,31,Defense,Regular Season,True,False,True
+446,MLB,Wrist,19,27,Offense,Regular Season,False,False,True
+447,NBA,Shoulder,36,40,Defense,Regular Season,False,False,True
+448,NFL,Knee ACL,173,28,Specialist,Preseason,True,False,True
+449,NHL,Hamstring,5,26,Defense,Regular Season,False,False,True
+450,NFL,Concussion,5,28,Specialist,Regular Season,True,False,True
+451,NFL,Wrist,14,23,Defense,Regular Season,False,False,True
+452,Soccer,Groin,28,24,Defense,Regular Season,False,True,True
+453,NFL,Concussion,24,28,Offense,Regular Season,False,False,True
+454,NFL,Calf,5,21,Defense,Regular Season,False,False,True
+455,NBA,Knee ACL,282,28,Specialist,Regular Season,False,False,True
+456,NBA,Hamstring,37,32,Specialist,Playoffs,False,False,True
+457,NFL,Quad,20,25,Defense,Playoffs,False,False,True
+458,MLB,Groin,22,32,Specialist,Playoffs,False,False,True
+459,NFL,Hip,3,31,Offense,Regular Season,False,False,True
+460,NFL,Quad,17,22,Offense,Regular Season,False,False,True
+461,MLB,Hamstring,5,24,Specialist,Regular Season,False,False,True
+462,NFL,Calf,18,25,Specialist,Preseason,False,False,True
+463,NFL,Calf,15,29,Offense,Playoffs,False,False,True
+464,MLB,Knee ACL,227,31,Offense,Preseason,False,False,True
+465,NBA,Concussion,11,30,Offense,Regular Season,True,True,True
+466,NHL,Hamstring,6,28,Specialist,Regular Season,False,False,True
+467,NFL,Back,65,24,Offense,Regular Season,False,False,True
+468,NFL,Shoulder,56,21,Offense,Regular Season,False,False,True
+469,MLB,Hamstring,9,22,Defense,Regular Season,True,False,True
+470,NFL,Foot,32,28,Offense,Preseason,False,True,True
+471,NFL,Hamstring,10,31,Offense,Regular Season,False,False,True
+472,NBA,Concussion,9,28,Offense,Playoffs,True,False,False
+473,MLB,Quad,16,30,Specialist,Regular Season,True,True,True
+474,MLB,Hip,12,26,Offense,Regular Season,True,False,True
+475,MLB,Back,51,28,Defense,Regular Season,True,False,True
+476,NBA,Hamstring,32,31,Specialist,Regular Season,False,False,True
+477,NBA,Hip,35,33,Specialist,Regular Season,False,False,True
+478,NBA,Concussion,14,23,Offense,Regular Season,False,False,False
+479,Soccer,Hip,22,29,Offense,Playoffs,False,True,True
+480,NBA,Ankle Sprain,56,25,Defense,Regular Season,False,False,True
+481,NHL,Knee ACL,175,25,Offense,Playoffs,True,False,True
+482,MLB,Concussion,10,28,Offense,Regular Season,False,False,True
+483,MLB,Shoulder,52,24,Offense,Regular Season,True,False,True
+484,Soccer,Hip,43,32,Defense,Regular Season,False,False,True
+485,NBA,Shoulder,20,31,Defense,Preseason,False,False,True
+486,NFL,Concussion,6,37,Defense,Regular Season,True,False,True
+487,NFL,Wrist,3,24,Specialist,Regular Season,False,True,True
+488,NBA,Quad,26,19,Defense,Regular Season,False,False,True
+489,Soccer,Foot,38,24,Offense,Regular Season,False,False,True
+490,NFL,Groin,22,30,Specialist,Playoffs,True,False,True
+491,MLB,Wrist,46,30,Defense,Regular Season,False,False,False
+492,Soccer,Quad,14,26,Defense,Regular Season,False,False,True
+493,MLB,Back,37,27,Offense,Regular Season,False,False,True
+494,NHL,Quad,24,18,Specialist,Regular Season,True,False,True
+495,NFL,Concussion,13,27,Specialist,Regular Season,False,False,True
+496,NFL,Hip,3,30,Defense,Regular Season,False,False,True
+497,Soccer,Hip,3,24,Offense,Regular Season,False,False,True
+498,Soccer,Groin,14,25,Specialist,Regular Season,True,False,True
+499,NBA,Hamstring,19,29,Defense,Regular Season,False,True,True
+500,NFL,Back,3,27,Defense,Regular Season,False,False,True
